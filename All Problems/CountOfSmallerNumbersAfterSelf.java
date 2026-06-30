@@ -1,7 +1,11 @@
 import java.util.*;
-
 public class CountOfSmallerNumbersAfterSelf {
-    public static  List<Integer> countSmaller(int[] nums) {
+    public List<Integer> countSmaller(int[] nums) {
+        BasicSegmentTree segmentTree = new BasicSegmentTree(nums);
+        // now write the logic to find the number of elements smaller than current index by using the segment tree
+
+    }
+    public static  List<Integer> countSmallerTreeMapApproach(int[] nums) {
         List<Integer> ans = new ArrayList<>();
         TreeMap<Integer, Integer> map = new TreeMap<>((k1, k2) -> Integer.compare(k2,k1));
         for(int i=nums.length-1; i>=0; i--){
