@@ -45,7 +45,7 @@ Each folder contains Java files for individual problems, named clearly for easy 
 
 DP_1d. **Clone the repository:**
    ```bash
-   git clone https://github.com/Rehnoor-Aulakh/Striver-A2Z-DSA-Java.git
+   git clone https://github.com/Rehnoor-Aulakh/StriverA2Z.git
    ```
 2. **Browse solutions:**
    Navigate through the folders to find solutions for specific topics or problems.
