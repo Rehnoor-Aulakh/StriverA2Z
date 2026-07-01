@@ -7,7 +7,7 @@ class PolyNode {
       PolyNode(int x, int y, PolyNode next) { this.coefficient = x; this.power = y; this.next = next; }
 }
 
-class Solution {
+class Solution22 {
     public PolyNode addPoly(PolyNode poly1, PolyNode poly2) {
         PolyNode t1 = poly1, t2 = poly2;
         //initialize ans with dummy node
