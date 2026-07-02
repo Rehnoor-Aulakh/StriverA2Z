@@ -8,10 +8,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Graphs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Stack" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/String" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/All Problems" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Bit Manipulation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Daily Problems" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Segment Trees" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Leetcode Premium Problems" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
