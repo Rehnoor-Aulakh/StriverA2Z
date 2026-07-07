@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Daily Problems" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Segment Trees" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Leetcode Premium Problems" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Leetcode Problems" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
