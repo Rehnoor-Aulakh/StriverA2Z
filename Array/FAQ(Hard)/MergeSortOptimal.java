@@ -1,4 +1,4 @@
-class Solution {
+public class MergeSortOptimal {
     
     /* Merge function to count 
     inversions and merge sorted halves */

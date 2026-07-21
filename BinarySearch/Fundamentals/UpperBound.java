@@ -1,3 +1,5 @@
+package Fundamentals;
+
 public class UpperBound{
     public static int upperBound(int[] nums, int x){
         int ans=nums.length-1;

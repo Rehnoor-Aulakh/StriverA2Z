@@ -1,3 +1,5 @@
+package Fundamentals;
+
 public class LowerBound{
     public static int lowerBound(int[] nums, int x){
         int ans=nums.length;

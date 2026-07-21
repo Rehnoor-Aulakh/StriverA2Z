@@ -13,6 +13,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Segment Trees" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Leetcode Premium Problems" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Leetcode Problems" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BinarySearch/Fundamentals" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Heap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Practice/Sorting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Practice/Arrays" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
