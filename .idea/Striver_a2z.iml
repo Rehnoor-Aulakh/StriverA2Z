@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Heap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Practice/Sorting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Practice/Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Practice/Binary Search" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Practice/Hashing" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
