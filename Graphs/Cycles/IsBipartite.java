@@ -5,26 +5,33 @@ import java.util.*;
 
 public class IsBipartite {
 
-    public static long[] computeCounters(int[] arr) {
-        int n = arr.length;
-        long[] result = new long[n];
-
-        // Keep track of the sum of elements to the left of the current index
-        long prefixSum = 0;
-
-        for (int i = 0; i < n; i++) {
-            // Formula: (i * arr[i]) - (sum of all previous elements)
-            // Cast 'i' to long before multiplication to prevent overflow
-            result[i] = ((long) i * arr[i]) - prefixSum;
-
-            // Add current element to the prefix sum for the next iterations
-            prefixSum += arr[i];
+    private boolean check(int start, int V, List<List<Integer>> adj, int[] color){
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(start);
+        color[start]=0;
+        while(!queue.isEmpty()){
+            int node= queue.poll();
+            for(int i: adj.get(node)){
+                if(color[i]==color[node]) return false;
+                if(color[i]==-1){
+                    // 0 of node will become 1 of i, and vice versa
+                    color[i]=1-color[node];
+                    queue.add(i);
+                }
+            }
         }
-
-        return result;
+        return true;
     }
+    public boolean isBipartite(int V, List<List<Integer>> adj) {
+        int color[] = new int[V];
+        for(int i=0;i<V;i++) color[i]=-1;
+        //traverse all the vertices
+        for(int i=0;i<V;i++){
+            if(color[i]==-1){
+                if(check(i,V, adj, color)==false) return false;
 
-    public static void main(String[] args) {
-        System.out.println(Arrays.toString(computeCounters(new int[]{2, 4, 3})));
+            }
+        }
+        return true;
     }
 }
