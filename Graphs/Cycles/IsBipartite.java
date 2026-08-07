@@ -1,8 +1,6 @@
 package Cycles;
 import java.util.*;
 
-
-
 public class IsBipartite {
 
     private boolean check(int start, int V, List<List<Integer>> adj, int[] color){

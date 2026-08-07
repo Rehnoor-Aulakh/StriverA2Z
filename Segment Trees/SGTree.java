@@ -1,8 +1,8 @@
-public class BasicSegmentTree {
+public class SGTree {
     int n;
     int[] arr;
     int[] seg;
-    public BasicSegmentTree(int[] arr){
+    public SGTree(int[] arr){
         this.arr= arr;
         this.n = arr.length;
         this.seg = new int[4*n];
