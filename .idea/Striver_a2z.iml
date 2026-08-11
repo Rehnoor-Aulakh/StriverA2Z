@@ -22,6 +22,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Greedy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HackerRankOAQuestions" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Practice/Recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BlackrockQuestions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TreeMap Problems" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
